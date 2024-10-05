@@ -9,13 +9,13 @@ function submitFeedback(){
     document.getElementById('userProductChoice').innerHTML = productType;
     document.getElementById('userFeedback').innerHTML = feedbackText;
 }
-const username = document.getElementById('name').Value;
-const age = document.getElementById('age').Value;
-const email = document.getElementById('email').Value;
-const job = document.getElementById('job').Value;
-const designation = document.getElementById('designation').Value;
-const productType = document.getElementById('productType').Value;
-const feedbackText = document.getElementById('feedbackText').Value;
+const username = document.getElementById('name').value;
+const age = document.getElementById('age').value;
+const email = document.getElementById('email').value;
+const job = document.getElementById('job').value;
+const designation = document.getElementById('designation').value;
+const productType = document.getElementById('productType').value;
+const feedbackText = document.getElementById('feedbackText').value;
 const submitButton = document.getElementById('submitBtn');
 submitButton.onclick = submitFeedback;
 document.addEventListener('keydown', function(event){
